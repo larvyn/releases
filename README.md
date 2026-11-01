@@ -40,3 +40,10 @@ $env:LARVYN_UNINSTALL = "1"; irm https://raw.githubusercontent.com/larvyn/releas
 Grab the file for your system from [Releases](https://github.com/larvyn/releases/releases).
 Windows and macOS builds are not code-signed yet, so a browser download shows
 a security warning; the install scripts above avoid it.
+
+## Feedback
+
+- **Found a bug?** Use **Settings → Report a bug** in the app (it fills in your
+  version and system), or [open an issue](https://github.com/larvyn/releases/issues/new/choose).
+- **Questions, ideas or beta feedback:** [Discussions](https://github.com/larvyn/releases/discussions).
+- **Security issues:** report them privately, see [SECURITY.md](SECURITY.md).
