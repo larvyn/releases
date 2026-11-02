@@ -10,13 +10,13 @@ This repository only hosts the releases and the install scripts.
 **Linux and macOS**
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/larvyn/releases/main/install.sh | sh
+curl -fsSL https://larvyn.dev/install.sh | sh
 ```
 
 **Windows** (PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/larvyn/releases/main/install.ps1 | iex
+irm https://larvyn.dev/install.ps1 | iex
 ```
 
 Run the same command again to update. Every download is checked against the
@@ -28,11 +28,11 @@ installer tells you the exact package names if they are missing.
 ## Uninstall
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/larvyn/releases/main/install.sh | sh -s -- --uninstall
+curl -fsSL https://larvyn.dev/install.sh | sh -s -- --uninstall
 ```
 
 ```powershell
-$env:LARVYN_UNINSTALL = "1"; irm https://raw.githubusercontent.com/larvyn/releases/main/install.ps1 | iex
+$env:LARVYN_UNINSTALL = "1"; irm https://larvyn.dev/install.ps1 | iex
 ```
 
 ## Manual download
